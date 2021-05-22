@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBFirstLayeredDemo", "DBFirstLayeredDemo.csproj", "{2F8915ED-F7EA-4B91-92CF-39DE536A5521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{18721CA9-5DCC-4802-A220-FEF497FEC02C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7FEEE491-FB77-4318-9F86-57A24F656581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{B1070637-CA6D-485E-92AE-917C236F2B6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{AA772A67-99E2-4E3B-A55E-B286D6666C92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayeredDBFirstDemo.DataAccess", "..\..\..\..\Admin\source\repos\LayeredDBFirstDemo\LayeredDBFirstDemo.DataAccess\LayeredDBFirstDemo.DataAccess.csproj", "{D7EC0138-2EAF-4D92-B977-92963F797542}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayeredDBFirstDemo.DataAccess.Context", "..\..\..\..\Admin\source\repos\LayeredDBFirstDemo\LayeredDBFirstDemo.DataAccess.Context\LayeredDBFirstDemo.DataAccess.Context.csproj", "{A931246F-43E6-4010-B900-68DE9521A389}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayeredDBFirstDemo.DataAccess.Entities", "..\..\..\..\Admin\source\repos\LayeredDBFirstDemo\LayeredDBFirstDemo.DataAccess.Entities\LayeredDBFirstDemo.DataAccess.Entities.csproj", "{2AD7CAB2-98D4-4056-9F5A-D7035C3DC4A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayeredDBFirstDemo.Utility", "..\..\..\..\Admin\source\repos\LayeredDBFirstDemo\LayeredDBFirstDemo.Utility\LayeredDBFirstDemo.Utility.csproj", "{95D8F0B6-C20F-4BBC-BDF0-3DB2FEA1B1AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayeredDBFirstDemo.Domain", "..\..\..\..\Admin\source\repos\LayeredDBFirstDemo\LayeredDBFirstDemo.Domain\LayeredDBFirstDemo.Domain.csproj", "{1F2344D2-44AD-4A0B-B285-30AEEF152C5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayeredDBFirstDemo.Model", "..\..\..\..\Admin\source\repos\LayeredDBFirstDemo\LayeredDBFirstDemo.Model\LayeredDBFirstDemo.Model.csproj", "{DDE40D06-6615-4386-A872-C39C20C1DE2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayeredDBFirstDemo.Contracts", "..\..\..\..\Admin\source\repos\LayeredDBFirstDemo\LayeredDBFirstDemo.Contracts\LayeredDBFirstDemo.Contracts.csproj", "{F1CAFE43-8C20-4FA9-9FA8-F7EA466C9F79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F8915ED-F7EA-4B91-92CF-39DE536A5521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8915ED-F7EA-4B91-92CF-39DE536A5521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8915ED-F7EA-4B91-92CF-39DE536A5521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8915ED-F7EA-4B91-92CF-39DE536A5521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7EC0138-2EAF-4D92-B977-92963F797542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EC0138-2EAF-4D92-B977-92963F797542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EC0138-2EAF-4D92-B977-92963F797542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EC0138-2EAF-4D92-B977-92963F797542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A931246F-43E6-4010-B900-68DE9521A389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A931246F-43E6-4010-B900-68DE9521A389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A931246F-43E6-4010-B900-68DE9521A389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A931246F-43E6-4010-B900-68DE9521A389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD7CAB2-98D4-4056-9F5A-D7035C3DC4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD7CAB2-98D4-4056-9F5A-D7035C3DC4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD7CAB2-98D4-4056-9F5A-D7035C3DC4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD7CAB2-98D4-4056-9F5A-D7035C3DC4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D8F0B6-C20F-4BBC-BDF0-3DB2FEA1B1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D8F0B6-C20F-4BBC-BDF0-3DB2FEA1B1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D8F0B6-C20F-4BBC-BDF0-3DB2FEA1B1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D8F0B6-C20F-4BBC-BDF0-3DB2FEA1B1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2344D2-44AD-4A0B-B285-30AEEF152C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2344D2-44AD-4A0B-B285-30AEEF152C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2344D2-44AD-4A0B-B285-30AEEF152C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2344D2-44AD-4A0B-B285-30AEEF152C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE40D06-6615-4386-A872-C39C20C1DE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE40D06-6615-4386-A872-C39C20C1DE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE40D06-6615-4386-A872-C39C20C1DE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE40D06-6615-4386-A872-C39C20C1DE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CAFE43-8C20-4FA9-9FA8-F7EA466C9F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CAFE43-8C20-4FA9-9FA8-F7EA466C9F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CAFE43-8C20-4FA9-9FA8-F7EA466C9F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CAFE43-8C20-4FA9-9FA8-F7EA466C9F79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F8915ED-F7EA-4B91-92CF-39DE536A5521} = {18721CA9-5DCC-4802-A220-FEF497FEC02C}
+		{D7EC0138-2EAF-4D92-B977-92963F797542} = {B1070637-CA6D-485E-92AE-917C236F2B6A}
+		{A931246F-43E6-4010-B900-68DE9521A389} = {B1070637-CA6D-485E-92AE-917C236F2B6A}
+		{2AD7CAB2-98D4-4056-9F5A-D7035C3DC4A3} = {B1070637-CA6D-485E-92AE-917C236F2B6A}
+		{95D8F0B6-C20F-4BBC-BDF0-3DB2FEA1B1AB} = {AA772A67-99E2-4E3B-A55E-B286D6666C92}
+		{1F2344D2-44AD-4A0B-B285-30AEEF152C5B} = {7FEEE491-FB77-4318-9F86-57A24F656581}
+		{DDE40D06-6615-4386-A872-C39C20C1DE2C} = {7FEEE491-FB77-4318-9F86-57A24F656581}
+		{F1CAFE43-8C20-4FA9-9FA8-F7EA466C9F79} = {7FEEE491-FB77-4318-9F86-57A24F656581}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97FB0E38-4367-4F79-843A-C961FC8E1230}
+	EndGlobalSection
+EndGlobal
